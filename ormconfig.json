@@ -1,0 +1,19 @@
+{
+    "type": "sqlite",
+    "host": "localhost",
+    "port": 3306,
+    "username": "test",
+    "password": "test",
+    "database": "../Python_Webscraping/demon_souls.db",
+    "synchronize": true,
+    "logging": false,
+    "entities": [
+       "weapon/weapon_entity.ts"
+    ],
+    "migrations": [
+       "src/migration/**/*.ts"
+    ],
+    "subscribers": [
+       "src/subscriber/**/*.ts"
+    ]
+ }
